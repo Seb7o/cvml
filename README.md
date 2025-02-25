@@ -6,7 +6,7 @@ CVML is a work-in-progress project aimed at defining a YAML-based structure for 
 
 ## Overview
 
-CVML stands for CV Markup Language. It defines a comprehensive YAML structure for representing your professional details, experience, education, skills, and more. The project is built around a JSON Schema (see [schema.json](schema.json)) that validates the structure of your CV file.
+CVML stands for CV Markup Language. It defines a comprehensive YAML structure for representing your professional details, experience, education, skills, and more. The project is built around a JSON Schema (see [schema.json](./schema-v0.1.json)) that validates the structure of your CV file.
 
 ---
 
@@ -40,8 +40,7 @@ The CVML schema is defined in a JSON file to ensure consistency and validity. Th
 - **Languages & Projects:** Languages known and projects undertaken.
 - **Hobbies:** A list of personal interests and hobbies.
 
-For the complete schema, refer to [schema.json](schema.json) which outlines all the properties and their requirements.  
-citeturn1file0
+For the complete schema, refer to [schema.json](./schema-v0.1.json) which outlines all the properties and their requirements.
 
 ---
 
@@ -51,7 +50,7 @@ The project also includes the beginnings of a web-based editor built with Vue an
 
 ### Editor Screenshot
 
-![CVML Editor Screenshot](screenshots/cvml_editor.png)
+![CVML Editor Screenshot](./cvml-editor/public/screenshot.png)
 
 *Note: The editor is a work in progress and may not reflect the final user experience.*
 
