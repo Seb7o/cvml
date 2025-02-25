@@ -1,0 +1,293 @@
+# Ce CV est au format CVML, un standard optimisé pour les ATS ET les Humains
+# Projet GitHub : https://github.com/Seb7o/cvml
+cvml_version: "0.1"
+title: "Ingénieur Infrastructure & DevOps"
+summary: >
+  Ingénieur Infrastructure & DevOps passionné, avec plus de 7 ans d'expérience en administration Linux et automatisation.
+  Expertise en déploiement d'infrastructures Cloud & On-Premise, CI/CD, virtualisation et monitoring.
+  Capacité à concevoir, déployer et maintenir des systèmes complexes tout en garantissant performance et sécurité.
+personal_info:
+  first_name: "Séveno"
+  last_name: "Sébastien"
+  email: "sebastien@sevenos.fr"
+  phone: "06 02 03 04 05"
+  location:
+    - city: "Vernon"
+      country: "France"
+      radius_km: 30
+    - city: "Paris"
+      country: "France"
+      radius_km: 5
+  profile_photo: null
+  websites:
+    - "https://sevenos.fr"
+    - "https://github.com/Seb7o"
+  disabilities: []
+  licenses:
+    - "Permis B"
+experience:
+  - company: "Freelance"
+    title: "Sysadmin & DevOps"
+    start_date: "2023-01"
+    end_date: null
+    location: "Vernon / Paris"
+    description: >
+      Administration et déploiement d'infrastructures on-premise et cloud pour PME.
+      Mise en place de pipelines CI/CD, surveillance via Grafana et gestion d'identité avec Authentik.
+      Déploiement d'environnements virtualisés.
+    skills:
+      - "Ansible"
+      - "GitLab CI"
+      - "Docker"
+      - "Proxmox"
+  - company: "LTU TECH"
+    title: "Développeur Backend"
+    start_date: "2022-07"
+    end_date: "2023-02"
+    location: "Paris"
+    description: >
+      Intégration d'IAM avec Keycloak, conception d'APIs et déploiement sur environnement Docker.
+    skills:
+      - "Python"
+      - "Django"
+      - "Keycloak"
+      - "Docker"
+  - company: "CASHWAY"
+    title: "Développeur"
+    start_date: "2020-11"
+    end_date: "2022-07"
+    location: ""
+    description: >
+      Développement d'une solution web pour la gestion des dépôts et retraits d'espèces.
+      Conception d'un backend et d'une API pour une application mobile de paiement.
+    skills:
+      - "Python"
+      - "Django"
+      - "Backend"
+      - "API"
+  - company: "IT METRICS"
+    title: "DevOps & Développeur"
+    start_date: "2019-06"
+    end_date: "2020-10"
+    location: "Paris"
+    description: >
+      Automatisation du déploiement avec Ansible, mise en place de CI/CD avec Jenkins, monitoring avec ELK et Prometheus,
+      et gestion d'infrastructure sur AWS.
+    skills:
+      - "Python"
+      - "Django"
+      - "Ansible"
+      - "Jenkins"
+      - "AWS"
+      - "Prometheus"
+  - company: "ArianeGroup"
+    title: "Technicien Support N2/N3"
+    start_date: "2018-06"
+    end_date: "2019-06"
+    location: "Vernon"
+    description: >
+      Support technique de niveau N2/N3, installations et configurations de software et hardware,
+      gestion d'Active Directory, SCCM et ITSM.
+    skills:
+      - "ITSM"
+      - "Active Directory"
+      - "AD"
+      - 
+education:
+  - institution: "Lycée Privé"
+    degree: "BTS SIO"
+    start_date: "2013-09"
+    end_date: "2015-06"
+  - institution: "CESI Rouen"
+    degree: "Diplôme d'Ingénieur"
+    start_date: "2015-09"
+    end_date: "2018-06"
+technical_skills:
+  # Infrastructure Cloud & On-Premise
+  - name: "AWS (EC2, S3, VPC, IAM)"
+    category: "Technology"
+    experience_level: "Advanced"
+    years_of_experience: 2
+  - name: "IONOS / OVH"
+    category: "Technology"
+    experience_level: "Advanced"
+    years_of_experience: 5
+  - name: "Proxmox"
+    category: "Tool"
+    experience_level: "Advanced"
+    years_of_experience: 3
+  - name: "VMWare vSphere"
+    category: "Tool"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+  - name: "KVM/QEMU"
+    category: "Tool"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+  - name: "pfSense & OpenWRT (Virtualisation & gestion de réseau)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+
+  # Automatisation & CI/CD
+  - name: "Ansible"
+    category: "Tool"
+    experience_level: "Advanced"
+    years_of_experience: 1
+  - name: "Terraform"
+    category: "Tool"
+    experience_level: "Beginner"
+    years_of_experience: 0
+  - name: "Github Actions"
+    category: "Tool"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "GitLab CI"
+    category: "Tool"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Jenkins"
+    category: "Tool"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Docker"
+    category: "Tool"
+    experience_level: "Advanced"
+    years_of_experience: 5
+  - name: "Kubernetes"
+    category: "Tool"
+    experience_level: "Beginner"
+    years_of_experience: 0
+
+  # Monitoring & Observabilité
+  - name: "Grafana"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Loki"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Prometheus"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Zabbix"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "ELK Stack (Centralisation des logs)"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+  - name: "Graylog (Centralisation des logs)"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+
+  # Sécurité & Conformité
+  - name: "Keycloak (IAM & Authentification)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Authentik (IAM & Authentification)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Trivy (Sécurisation des containers)"
+    category: "Tool"
+    experience_level: "Beginner"
+    years_of_experience: 0
+  - name: "OWASP (Sécurisation des containers)"
+    category: "Tool"
+    experience_level: "Beginner"
+    years_of_experience: 0
+
+  # Systèmes & Réseaux
+  - name: "Debian / Ubuntu"
+    category: "Technology"
+    experience_level: "Advanced"
+    years_of_experience: 7
+  - name: "Windows Server"
+    category: "Technology"
+    experience_level: "Beginner"
+    years_of_experience: 1
+  - name: "Routage, VLAN, DNS, VPN, DHCP (WireGuard, dnsmasq, Pi-hole)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Mail (IMAP, POP, postfix, dovecot)"
+    category: "Software"
+    experience_level: "Intermediate"
+    years_of_experience: 1
+  - name: "Web (HTTP, SSL - apache2, haproxy, nginx)"
+    category: "Software"
+    experience_level: "Advanced"
+    years_of_experience: 5
+  - name: "Stockage (ZFS, XFS, IPFS, NFS, SAN/NAS, SMB, FTP)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Protocoles (couches IP, TCP/UDP, SNMP, SSH, ARP)"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+
+  # Développement
+  - name: "Python"
+    category: "Language"
+    experience_level: "Advanced"
+    years_of_experience: 7
+  - name: "Django"
+    category: "Technology"
+    experience_level: "Advanced"
+    years_of_experience: 5
+  - name: "AngularJS"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "Vue.js"
+    category: "Technology"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "PHP"
+    category: "Language"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "C#"
+    category: "Language"
+    experience_level: "Intermediate"
+    years_of_experience: 2
+  - name: "API REST & Microservices"
+    category: "Technology"
+    experience_level: "Advanced"
+    years_of_experience: 3
+
+soft_skills:
+  - "Communication"
+  - "Adaptabilité"
+  - "Esprit d'équipe"
+certifications: []
+languages:
+  - language: "Français"
+    level: "Native"
+  - language: "Anglais"
+    level: "C1"
+projects:
+  - name: "Homelab"
+    description: "Projet de lab personnel pour expérimentations et tests en infrastructure et DevOps."
+    url: "https://github.com/Seb7o/homelab"
+  - name: "CVML"
+    description: "CV Markup Language - projet en cours de développement pour standardiser les CV en YAML."
+    url: "https://github.com/Seb7o/cvml"
+hobbies:
+  - "Physique : quantique, espace, relativité générale, notions en nucléaire, particules à l'échelle atomique"
+  - "Mécanique : fluides, automobile, statique et solide (issu de STI2D)"
+  - "Électronique : projets Arduino/ESP8266/Raspberry, protocoles I2C, RS232, port GPIO, IoT, domotique, Home Assistant, Zigbee, mqtt"
+  - "Électricité générale : modification d'installations électriques, tableaux, prises, etc."
+  - "Psychologie / Philosophie : grand intérêt pour ces domaines"
+  - "Cinéma / Photographie : passion pour les images, films et productions"
+  - "Acoustique : amplification, sonorisation, fréquences, modes"
+  - "Optique : notions en lumière et réfraction"
+  - "Cybersécurité : sensibilisation à la protection des données, phishing, techniques d'intrusion et vulnérabilités"
+
